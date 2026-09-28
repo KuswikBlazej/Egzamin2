@@ -16,6 +16,7 @@
         android:textSize="11pt"
         android:text="Notatki"/>
     <ListView
+        android:id="@+id/List"
         android:layout_width="match_parent"
         android:layout_height="1200px"/>
     <TextView
@@ -29,6 +30,7 @@
         android:layout_height="wrap_content"
         android:text="Tytuł notatki:" />
     <EditText
+        android:id="@+id/Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -36,9 +38,11 @@
         android:layout_height="wrap_content"
         android:text="Treść notatki:" />
     <EditText
+        android:id="@+id/Content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:id="@+id/Add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DODAJ"
